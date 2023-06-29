@@ -12,6 +12,7 @@
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
+  <remote name="ronetix"	 fetch="https://github.com/ronetix" />
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="025124814e8676e46d42ec5b07220283f1bdbcd0" upstream="langdale"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="2aa48e6f4e519abc7d6bd56da2c067309a303e80" upstream="langdale"/>
@@ -30,6 +31,7 @@
   <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
   <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="4f7d02004cd78f0fca77489deb7487bfb301ea36" upstream="6.4"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="33a45eb06bead2509f1bf5bf46a5bbc85d66583b" upstream="langdale"/>
+  <project name="meta-ronetix" path="sources/meta-ronetix" remote="ronetix"   revision="langdale"/>
 
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.1_1.0.1" upstream="langdale-6.1.1-1.0.0" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
