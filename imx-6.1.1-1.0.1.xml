@@ -21,7 +21,7 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="c354f92778c1d4bcd3680af7e0fb0d1414de2344" upstream="langdale"/>
   <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="22f1cc330d3501923d2dc27cd3fc424c69c3a73a" upstream="master"/>
 
-  <project name="bsp-base" path="sources/base" remote="ronetix" upstream="langdale">
+  <project name="bsp-base" path="sources/base" remote="ronetix" revision="langdale">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
