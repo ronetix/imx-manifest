@@ -12,6 +12,7 @@
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
+  <remote name="ronetix"	 fetch="https://github.com/ronetix" />
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0e043288fd0b17fbf31cf00ae33045107a991144" upstream="master"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="d7db0a3bd1a8639df7570483f003ce00cbe274a2" upstream="mickledore"/>
@@ -20,7 +21,7 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="75cf318cef3b4ee81fad2782cf063ecd69ba8842" upstream="mickledore"/>
   <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="af4dcba009ba98250315520f3003fde4ee164cce" upstream="mickledore"/>
 
-  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="master">
+  <project name="bsp-base" path="sources/base" remote="ronetix" revision="mickledore">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
