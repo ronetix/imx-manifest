@@ -25,6 +25,7 @@
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
+  <project name="meta-ronetix" path="sources/meta-ronetix" remote="ronetix" revision="micledore" upstream="micledore"/>
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="9b00d40b787c2b7105ce209f5635cc1a0cab81ca" upstream="master"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="93ba05e3a16a028b770fa1e813b13eb87a59ac63" upstream="master"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b09c18a3f649f0cf1b40432bb39e76ba16fe94e2" upstream="master"/>
